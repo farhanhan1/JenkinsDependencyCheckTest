@@ -5,7 +5,7 @@ pipeline {
 		}
 	}
 	stages {
-		stage('Checkout SCM') {
+		stage('Redirect to Lab 7 Branch') {
             steps {
                 script {
                     git branch: "lab7",
